@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- HERO IMAGE — replace with your actual Cloudinary URL -->
-![VYOM+ Hero](https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/v1/vyom/hero-dashboard.png)
+<!-- HERO IMAGE -->
+![VYOM+ Hero](https://res.cloudinary.com/dfpundlst/image/upload/v1/vyom/hero-dashboard.png)
 
 # VYOM+
 
@@ -78,7 +78,6 @@ VYOM+ converts messy GST invoices — handwritten, printed, and digital — into
 30. [Project Roadmap](#30--project-roadmap)
 31. [Contributing](#31--contributing)
 32. [License](#32--license)
-33. [Team / Credits](#33--team--credits)
 
 </details>
 
@@ -128,8 +127,8 @@ Indian GST invoice processing is hard because invoices are unpredictable:
 
 VYOM+ is a **full document intelligence platform**, not a simple OCR wrapper. It processes invoices through a canonical pipeline where every stage adds evidence, narrows uncertainty, and builds toward a provably correct financial record.
 
-<!-- PIPELINE IMAGE — replace with your actual Cloudinary URL -->
-![VYOM+ Pipeline](https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/v1/vyom/processing-pipeline.png)
+<!-- PIPELINE IMAGE -->
+![VYOM+ Pipeline](https://res.cloudinary.com/dfpundlst/image/upload/v1/vyom/processing-pipeline.png)
 
 ```
 UPLOAD → ADMIT → WITNESS → LATTICE → RECONCILE → ZOOM-ON-DOUBT → PROVE + DECIDE → LEARN + EXPORT
@@ -368,8 +367,8 @@ The constraint solver acts as a **reconciliation engine**: it receives candidate
 
 ## 10 · System Architecture
 
-<!-- SYSTEM ARCHITECTURE IMAGE — replace with your actual Cloudinary URL -->
-![VYOM+ System Architecture](https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/v1/vyom/architecture.png)
+<!-- SYSTEM ARCHITECTURE IMAGE -->
+![VYOM+ System Architecture](https://res.cloudinary.com/dfpundlst/image/upload/v1/vyom/architecture.png)
 
 ```mermaid
 flowchart TB
@@ -756,6 +755,9 @@ Implementation follows a phased strategy that maintains a working MVP at every s
 
 ## 17 · Expected Final Output
 
+<!-- VERIFIED OUTPUT IMAGE -->
+![VYOM+ Verified Output](https://res.cloudinary.com/dfpundlst/image/upload/v1/vyom/verified-output.png)
+
 ### Canonical JSON Record
 
 ```json
@@ -1036,8 +1038,8 @@ flowchart TD
 
 ## 25 · Example: Handwritten Invoice Repair
 
-<!-- HANDWRITTEN INVOICE IMAGE — replace with your actual Cloudinary URL -->
-![Handwritten Invoice](https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/v1/vyom/handwritten-invoice.png)
+<!-- HANDWRITTEN INVOICE IMAGE -->
+![Handwritten Invoice](https://res.cloudinary.com/dfpundlst/image/upload/v1/vyom/handwritten-invoice.png)
 
 **Scenario:** A handwritten invoice with an ambiguous digit in the line amount field.
 
@@ -1172,8 +1174,8 @@ InvoiceRecord
 
 ## 28 · Demo Flow
 
-<!-- EVIDENCE WORKSPACE IMAGE — replace with your actual Cloudinary URL -->
-![Evidence Workspace](https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/v1/vyom/evidence-workspace.png)
+<!-- EVIDENCE WORKSPACE IMAGE -->
+![Evidence Workspace](https://res.cloudinary.com/dfpundlst/image/upload/v1/vyom/evidence-workspace.png)
 
 ### 5-Step Demo
 
@@ -1254,30 +1256,3 @@ Please open an issue first for major changes to discuss the approach.
 ## 32 · License
 
 > License information has not been specified for this project. Please check the repository for an explicit `LICENSE` file before using any component in production.
-
----
-
-## 33 · Team / Credits
-
-> Team and credit information to be added by project maintainers.
-
----
-
-<div align="center">
-
-<!-- VERIFIED OUTPUT IMAGE — replace with your actual Cloudinary URL -->
-![VYOM+ Verified Output](https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/v1/vyom/verified-output.png)
-
----
-
-**VYOM+** — *Proof-Carrying GST Invoice Intelligence*
-
-`Evidence → Candidates → Constraints → Reconciliation → Proof → Verified Record`
-
-> *"VYOM+ does not simply read invoices. It reasons over the evidence already present inside them."*
-
-</div>
-
----
-
-> **📌 Cloudinary Image Note:** This README uses Cloudinary-hosted image placeholders. Replace `YOUR_CLOUD_NAME` in each image URL with your actual Cloudinary cloud name, and upload the corresponding assets to the paths shown (e.g., `/vyom/hero-dashboard.png`, `/vyom/handwritten-invoice.png`, `/vyom/evidence-workspace.png`, `/vyom/processing-pipeline.png`, `/vyom/verified-output.png`, `/vyom/architecture.png`). Do not store these images inside the repository.
