@@ -1,7 +1,6 @@
 <div align="center">
 
 <!-- HERO IMAGE -->
-![VYOM+ Hero](https://res.cloudinary.com/dfpundlst/image/upload/v1/vyom/hero-dashboard.png)
 
 # VYOM+
 
@@ -126,9 +125,6 @@ Indian GST invoice processing is hard because invoices are unpredictable:
 ## 3 · Project Overview
 
 VYOM+ is a **full document intelligence platform**, not a simple OCR wrapper. It processes invoices through a canonical pipeline where every stage adds evidence, narrows uncertainty, and builds toward a provably correct financial record.
-
-<!-- PIPELINE IMAGE -->
-![VYOM+ Pipeline](https://res.cloudinary.com/dfpundlst/image/upload/v1/vyom/processing-pipeline.png)
 
 ```
 UPLOAD → ADMIT → WITNESS → LATTICE → RECONCILE → ZOOM-ON-DOUBT → PROVE + DECIDE → LEARN + EXPORT
@@ -367,8 +363,6 @@ The constraint solver acts as a **reconciliation engine**: it receives candidate
 
 ## 10 · System Architecture
 
-<!-- SYSTEM ARCHITECTURE IMAGE -->
-![VYOM+ System Architecture](https://res.cloudinary.com/dfpundlst/image/upload/v1/vyom/architecture.png)
 
 ```mermaid
 flowchart TB
@@ -756,7 +750,6 @@ Implementation follows a phased strategy that maintains a working MVP at every s
 ## 17 · Expected Final Output
 
 <!-- VERIFIED OUTPUT IMAGE -->
-![VYOM+ Verified Output](https://res.cloudinary.com/dfpundlst/image/upload/v1/vyom/verified-output.png)
 
 ### Canonical JSON Record
 
@@ -1039,7 +1032,6 @@ flowchart TD
 ## 25 · Example: Handwritten Invoice Repair
 
 <!-- HANDWRITTEN INVOICE IMAGE -->
-![Handwritten Invoice](https://res.cloudinary.com/dfpundlst/image/upload/v1/vyom/handwritten-invoice.png)
 
 **Scenario:** A handwritten invoice with an ambiguous digit in the line amount field.
 
@@ -1175,7 +1167,6 @@ InvoiceRecord
 ## 28 · Demo Flow
 
 <!-- EVIDENCE WORKSPACE IMAGE -->
-![Evidence Workspace](https://res.cloudinary.com/dfpundlst/image/upload/v1/vyom/evidence-workspace.png)
 
 ### 5-Step Demo
 
